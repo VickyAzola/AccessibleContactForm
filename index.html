@@ -25,27 +25,31 @@
       <h1>Contact Us</h1>
 
       <div class="name-group">
-        <label for="firstName" class="flex-group"> 
-          <p>First Name <span>*</span></p>
-          <input 
-            id="firstName" 
-            name="firstName" 
-            title="Only letters" 
-            aria-required="true"
-          />
-          <p class="errorMsg" aria-live="polite"></p>
-        </label>
+        <div>
+          <label for="firstName" class="flex-group"> 
+            <p>First Name <span>*</span></p>
+            <input 
+              id="firstName" 
+              name="firstName" 
+              title="Only letters" 
+              aria-required="true"
+            />
+          </label>
+          <p class="errorMsg" aria-live="polite"></p>  
+        </div>
 
-        <label for="lastName" class="flex-group"> 
-          <p>Last Name <span>*</span></p>
-          <input 
-            id="lastName" 
-            name="lastName" 
-            title="Only letters" 
-            aria-required="true" 
-          />
+        <div>
+          <label for="lastName" class="flex-group"> 
+            <p>Last Name <span>*</span></p>
+            <input 
+              id="lastName" 
+              name="lastName" 
+              title="Only letters" 
+              aria-required="true" 
+            />
+          </label>
           <p class="errorMsg" aria-live="polite"></p>
-        </label>
+        </div>
       </div>
 
       <label for="email" class="flex-group"> 
@@ -57,8 +61,8 @@
           autocomplete="email" 
           aria-required="true" 
         />
-        <p class="errorMsg" aria-live="polite"></p>
       </label>
+      <p class="errorMsg" aria-live="polite"></p>
 
     <div>
       <p class="queryType">Query Type <span>*</span></p>
@@ -90,8 +94,8 @@
       <label for="message" class="flex-group"> 
         <p>Message <span>*</span></p>
         <textarea id="message" aria-required="true"></textarea>
-        <p class="errorMsg" aria-live="polite"></p>
       </label>
+      <p class="errorMsg" aria-live="polite"></p>
 
       <div>
         <div class="cbox">
